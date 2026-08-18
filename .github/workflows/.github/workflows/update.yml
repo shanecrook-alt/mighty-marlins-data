@@ -1,0 +1,31 @@
+name: Update Marlins Data
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Fetch latest Sleeper data
+        run: |
+          curl -L --fail --silent --show-error \
+          https://api.mightymarlins.com \
+          -o marlins.json
+
+      - name: Commit updated data
+        run: |
+          git config user.name "Mighty Marlins Bot"
+          git config user.email "actions@github.com"
+          git add marlins.json
+          git diff --cached --quiet || git commit -m "Update Marlins data"
+          git push
