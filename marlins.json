@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T10:12:39.350Z",
+  "updated_at": "2026-09-15T10:41:31.263Z",
   "league": {
     "name": "Lombardi’s Lads Fantasy Championship LLFC",
     "status": "in_season",
@@ -62,10 +62,11 @@
     },
     "avatar": "99c253f6032deaf2721ccb413a9016b7",
     "company_id": null,
-    "shard": 187,
-    "season": "2026",
-    "season_type": "regular",
+    "last_message_id": "1404942193109508096",
     "sport": "nfl",
+    "season_type": "regular",
+    "season": "2026",
+    "shard": 187,
     "scoring_settings": {
       "sack": 1,
       "qb_hit": 0,
@@ -216,7 +217,6 @@
       "st_ff": 1,
       "idp_tkl_ast": 0
     },
-    "last_message_id": "1404942193109508096",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -229,9 +229,6 @@
     "last_read_id": null,
     "league_id": "1384488276626272256",
     "previous_league_id": "1258299728655814656",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -248,6 +245,9 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
     "loser_bracket_id": null,
     "loser_bracket_overrides_id": null,
     "total_rosters": 10
@@ -1625,12 +1625,12 @@
       "adds": {
         "9482": 5
       },
-      "consenter_ids": [
-        5
-      ],
       "drops": {
         "5022": 5
       },
+      "consenter_ids": [
+        5
+      ],
       "roster_ids": [
         5
       ],
@@ -1650,12 +1650,12 @@
       "adds": {
         "MIN": 5
       },
-      "consenter_ids": [
-        5
-      ],
       "drops": {
         "12474": 5
       },
+      "consenter_ids": [
+        5
+      ],
       "roster_ids": [
         5
       ],
@@ -1673,12 +1673,12 @@
       "creator": "1258546735060365312",
       "transaction_id": "1404576850990157824",
       "adds": null,
-      "consenter_ids": [
-        3
-      ],
       "drops": {
         "5991": 3
       },
+      "consenter_ids": [
+        3
+      ],
       "roster_ids": [
         3
       ],
@@ -1698,12 +1698,12 @@
       "adds": {
         "4037": 5
       },
-      "consenter_ids": [
-        5
-      ],
       "drops": {
         "13305": 5
       },
+      "consenter_ids": [
+        5
+      ],
       "roster_ids": [
         5
       ],
@@ -1723,10 +1723,10 @@
       "adds": {
         "5022": 5
       },
+      "drops": null,
       "consenter_ids": [
         5
       ],
-      "drops": null,
       "roster_ids": [
         5
       ],
@@ -1751,16 +1751,16 @@
         "12518": 6,
         "12527": 6
       },
-      "consenter_ids": [
-        5,
-        6
-      ],
       "drops": {
         "9487": 6,
         "11604": 6,
         "12518": 5,
         "12527": 5
       },
+      "consenter_ids": [
+        5,
+        6
+      ],
       "roster_ids": [
         5,
         6
@@ -1781,12 +1781,12 @@
       "adds": {
         "13414": 1
       },
-      "consenter_ids": [
-        1
-      ],
       "drops": {
         "9500": 1
       },
+      "consenter_ids": [
+        1
+      ],
       "roster_ids": [
         1
       ],
@@ -1806,12 +1806,12 @@
       "adds": {
         "6083": 4
       },
-      "consenter_ids": [
-        4
-      ],
       "drops": {
         "4199": 4
       },
+      "consenter_ids": [
+        4
+      ],
       "roster_ids": [
         4
       ],
@@ -1831,12 +1831,12 @@
       "adds": {
         "3163": 5
       },
-      "consenter_ids": [
-        5
-      ],
       "drops": {
         "11563": 5
       },
+      "consenter_ids": [
+        5
+      ],
       "roster_ids": [
         5
       ],
@@ -1861,12 +1861,12 @@
       "adds": {
         "12474": 5
       },
-      "consenter_ids": [
-        5
-      ],
       "drops": {
         "BAL": 5
       },
+      "consenter_ids": [
+        5
+      ],
       "roster_ids": [
         5
       ],
@@ -1886,12 +1886,12 @@
       "adds": {
         "9756": 8
       },
-      "consenter_ids": [
-        8
-      ],
       "drops": {
         "12474": 8
       },
+      "consenter_ids": [
+        8
+      ],
       "roster_ids": [
         8
       ],
@@ -1911,12 +1911,12 @@
       "adds": {
         "2020": 8
       },
-      "consenter_ids": [
-        8
-      ],
       "drops": {
         "12530": 8
       },
+      "consenter_ids": [
+        8
+      ],
       "roster_ids": [
         8
       ],
@@ -1936,12 +1936,12 @@
       "adds": {
         "1466": 1
       },
-      "consenter_ids": [
-        1
-      ],
       "drops": {
         "12493": 1
       },
+      "consenter_ids": [
+        1
+      ],
       "roster_ids": [
         1
       ],
@@ -1961,10 +1961,10 @@
       "adds": {
         "7648": 1
       },
+      "drops": null,
       "consenter_ids": [
         1
       ],
-      "drops": null,
       "roster_ids": [
         1
       ],
@@ -1982,12 +1982,12 @@
       "creator": "700312807773663232",
       "transaction_id": "1399957009633132544",
       "adds": null,
-      "consenter_ids": [
-        1
-      ],
       "drops": {
         "8267": 1
       },
+      "consenter_ids": [
+        1
+      ],
       "roster_ids": [
         1
       ],
@@ -2012,12 +2012,12 @@
       "adds": {
         "12489": 9
       },
-      "consenter_ids": [
-        9
-      ],
       "drops": {
         "10232": 9
       },
+      "consenter_ids": [
+        9
+      ],
       "roster_ids": [
         9
       ],
@@ -2037,12 +2037,12 @@
       "adds": {
         "7841": 2
       },
-      "consenter_ids": [
-        2
-      ],
       "drops": {
         "3973": 2
       },
+      "consenter_ids": [
+        2
+      ],
       "roster_ids": [
         2
       ],
@@ -2062,10 +2062,10 @@
       "adds": {
         "11581": 2
       },
+      "drops": null,
       "consenter_ids": [
         2
       ],
-      "drops": null,
       "roster_ids": [
         2
       ],
@@ -2083,12 +2083,12 @@
       "creator": "1258369691303288832",
       "transaction_id": "1398964834103525376",
       "adds": null,
-      "consenter_ids": [
-        2
-      ],
       "drops": {
         "12489": 2
       },
+      "consenter_ids": [
+        2
+      ],
       "roster_ids": [
         2
       ],
@@ -2108,12 +2108,12 @@
       "adds": {
         "13305": 5
       },
-      "consenter_ids": [
-        5
-      ],
       "drops": {
         "13296": 5
       },
+      "consenter_ids": [
+        5
+      ],
       "roster_ids": [
         5
       ],
@@ -2133,12 +2133,12 @@
       "adds": {
         "13296": 5
       },
-      "consenter_ids": [
-        5
-      ],
       "drops": {
         "11576": 5
       },
+      "consenter_ids": [
+        5
+      ],
       "roster_ids": [
         5
       ],
@@ -2158,12 +2158,12 @@
       "adds": {
         "LV": 8
       },
-      "consenter_ids": [
-        8
-      ],
       "drops": {
         "13346": 8
       },
+      "consenter_ids": [
+        8
+      ],
       "roster_ids": [
         8
       ],
@@ -2188,12 +2188,12 @@
       "adds": {
         "10236": 4
       },
-      "consenter_ids": [
-        4
-      ],
       "drops": {
         "4227": 4
       },
+      "consenter_ids": [
+        4
+      ],
       "roster_ids": [
         4
       ],
@@ -2213,12 +2213,12 @@
       "adds": {
         "BAL": 5
       },
-      "consenter_ids": [
-        5
-      ],
       "drops": {
         "MIN": 5
       },
+      "consenter_ids": [
+        5
+      ],
       "roster_ids": [
         5
       ],
@@ -2238,12 +2238,12 @@
       "adds": {
         "12474": 8
       },
-      "consenter_ids": [
-        8
-      ],
       "drops": {
         "10236": 8
       },
+      "consenter_ids": [
+        8
+      ],
       "roster_ids": [
         8
       ],
@@ -2263,12 +2263,12 @@
       "adds": {
         "8659": 8
       },
-      "consenter_ids": [
-        8
-      ],
       "drops": {
         "8676": 8
       },
+      "consenter_ids": [
+        8
+      ],
       "roster_ids": [
         8
       ],
@@ -2293,12 +2293,12 @@
       "adds": {
         "12508": 4
       },
-      "consenter_ids": [
-        4
-      ],
       "drops": {
         "12484": 4
       },
+      "consenter_ids": [
+        4
+      ],
       "roster_ids": [
         4
       ],
@@ -2318,12 +2318,12 @@
       "adds": {
         "LAC": 1
       },
-      "consenter_ids": [
-        1
-      ],
       "drops": {
         "12508": 1
       },
+      "consenter_ids": [
+        1
+      ],
       "roster_ids": [
         1
       ],
@@ -2343,12 +2343,12 @@
       "adds": {
         "8267": 1
       },
-      "consenter_ids": [
-        1
-      ],
       "drops": {
         "12534": 1
       },
+      "consenter_ids": [
+        1
+      ],
       "roster_ids": [
         1
       ],
@@ -2368,12 +2368,12 @@
       "adds": {
         "11576": 5
       },
-      "consenter_ids": [
-        5
-      ],
       "drops": {
         "11631": 5
       },
+      "consenter_ids": [
+        5
+      ],
       "roster_ids": [
         5
       ],
@@ -2393,12 +2393,12 @@
       "adds": {
         "7567": 6
       },
-      "consenter_ids": [
-        6
-      ],
       "drops": {
         "13417": 6
       },
+      "consenter_ids": [
+        6
+      ],
       "roster_ids": [
         6
       ],
@@ -2418,12 +2418,12 @@
       "adds": {
         "11563": 5
       },
-      "consenter_ids": [
-        5
-      ],
       "drops": {
         "4046": 5
       },
+      "consenter_ids": [
+        5
+      ],
       "roster_ids": [
         5
       ],
@@ -2448,10 +2448,10 @@
       "adds": {
         "11539": 3
       },
+      "drops": null,
       "consenter_ids": [
         3
       ],
-      "drops": null,
       "roster_ids": [
         3
       ],
@@ -2471,12 +2471,12 @@
       "adds": {
         "4217": 3
       },
-      "consenter_ids": [
-        3
-      ],
       "drops": {
         "11539": 3
       },
+      "consenter_ids": [
+        3
+      ],
       "roster_ids": [
         3
       ],
@@ -2496,12 +2496,12 @@
       "adds": {
         "JAX": 3
       },
-      "consenter_ids": [
-        3
-      ],
       "drops": {
         "WAS": 3
       },
+      "consenter_ids": [
+        3
+      ],
       "roster_ids": [
         3
       ],
@@ -2521,12 +2521,12 @@
       "adds": {
         "8408": 3
       },
-      "consenter_ids": [
-        3
-      ],
       "drops": {
         "11581": 3
       },
+      "consenter_ids": [
+        3
+      ],
       "roster_ids": [
         3
       ],
@@ -2546,10 +2546,10 @@
       "adds": {
         "9500": 1
       },
+      "drops": null,
       "consenter_ids": [
         1
       ],
-      "drops": null,
       "roster_ids": [
         1
       ],
@@ -2559,405 +2559,405 @@
   ],
   "trending_adds_24h": [
     {
-      "count": 1210867,
+      "count": 1241478,
       "player_id": "11834"
     },
     {
-      "count": 683904,
+      "count": 704000,
       "player_id": "13296"
     },
     {
-      "count": 600255,
+      "count": 614619,
       "player_id": "6130"
     },
     {
-      "count": 386057,
+      "count": 397789,
       "player_id": "13414"
     },
     {
-      "count": 338645,
+      "count": 358420,
       "player_id": "TB"
     },
     {
-      "count": 329442,
+      "count": 335700,
       "player_id": "3161"
     },
     {
-      "count": 241480,
+      "count": 244180,
       "player_id": "4993"
     },
     {
-      "count": 232362,
+      "count": 241563,
       "player_id": "SF"
     },
     {
-      "count": 194696,
+      "count": 197112,
       "player_id": "9228"
     },
     {
-      "count": 182912,
+      "count": 186440,
       "player_id": "12492"
     },
     {
-      "count": 143472,
+      "count": 145136,
       "player_id": "12545"
     },
     {
-      "count": 141951,
+      "count": 144915,
       "player_id": "9486"
     },
     {
-      "count": 118026,
+      "count": 120555,
       "player_id": "13337"
     },
     {
-      "count": 97977,
+      "count": 100416,
       "player_id": "4454"
     },
     {
-      "count": 91640,
+      "count": 97384,
       "player_id": "12472"
     },
     {
-      "count": 91336,
+      "count": 94680,
       "player_id": "4066"
     },
     {
-      "count": 79242,
+      "count": 80730,
       "player_id": "3634"
     },
     {
-      "count": 77932,
+      "count": 78807,
       "player_id": "11646"
     },
     {
-      "count": 72792,
+      "count": 76476,
       "player_id": "3286"
     },
     {
-      "count": 70700,
+      "count": 73332,
       "player_id": "12501"
     },
     {
-      "count": 69534,
+      "count": 70875,
       "player_id": "13330"
     },
     {
-      "count": 64590,
+      "count": 65022,
       "player_id": "12534"
     },
     {
-      "count": 51108,
+      "count": 54339,
       "player_id": "4177"
     },
     {
-      "count": 49122,
+      "count": 51210,
       "player_id": "12533"
     },
     {
-      "count": 46179,
+      "count": 46062,
       "player_id": "9482"
     },
     {
-      "count": 40320,
+      "count": 41292,
       "player_id": "12711"
     },
     {
-      "count": 31395,
+      "count": 32522,
       "player_id": "10236"
     },
     {
-      "count": 30646,
+      "count": 31913,
       "player_id": "2020"
     },
     {
-      "count": 30267,
-      "player_id": "6826"
-    },
-    {
-      "count": 29888,
+      "count": 30608,
       "player_id": "8121"
     },
     {
-      "count": 29336,
+      "count": 30537,
+      "player_id": "6826"
+    },
+    {
+      "count": 30264,
       "player_id": "8183"
     },
     {
-      "count": 26411,
+      "count": 28140,
       "player_id": "9758"
     },
     {
-      "count": 26398,
+      "count": 27390,
       "player_id": "9757"
     },
     {
-      "count": 25196,
+      "count": 25744,
       "player_id": "13301"
     },
     {
-      "count": 23392,
+      "count": 24240,
       "player_id": "11625"
     },
     {
-      "count": 21704,
-      "player_id": "5022"
-    },
-    {
-      "count": 21627,
+      "count": 23094,
       "player_id": "11630"
     },
     {
-      "count": 21396,
-      "player_id": "13379"
-    },
-    {
-      "count": 21285,
+      "count": 22365,
       "player_id": "8134"
     },
     {
-      "count": 20464,
-      "player_id": "1166"
+      "count": 21940,
+      "player_id": "5022"
     },
     {
-      "count": 19952,
+      "count": 21796,
+      "player_id": "13379"
+    },
+    {
+      "count": 21099,
       "player_id": "5854"
     },
     {
-      "count": 18882,
+      "count": 20968,
+      "player_id": "1166"
+    },
+    {
+      "count": 19176,
       "player_id": "7002"
     },
     {
-      "count": 18298,
-      "player_id": "12556"
-    },
-    {
-      "count": 18180,
-      "player_id": "9480"
-    },
-    {
-      "count": 18072,
+      "count": 18644,
       "player_id": "13545"
     },
     {
-      "count": 15993,
+      "count": 18578,
+      "player_id": "12556"
+    },
+    {
+      "count": 18477,
+      "player_id": "9480"
+    },
+    {
+      "count": 16572,
       "player_id": "7571"
     },
     {
-      "count": 15050,
+      "count": 16114,
       "player_id": "11729"
     },
     {
-      "count": 14292,
+      "count": 14463,
       "player_id": "9487"
     },
     {
-      "count": 14022,
+      "count": 14310,
       "player_id": "11624"
     },
     {
-      "count": 13050,
-      "player_id": "11560"
+      "count": 13640,
+      "player_id": "11610"
     }
   ],
   "trending_drops_24h": [
     {
-      "count": 239312,
+      "count": 242072,
       "player_id": "5849"
     },
     {
-      "count": 180540,
+      "count": 188148,
       "player_id": "JAX"
     },
     {
-      "count": 168561,
+      "count": 169254,
       "player_id": "11581"
     },
     {
-      "count": 129141,
+      "count": 129771,
       "player_id": "9756"
     },
     {
-      "count": 121248,
+      "count": 122049,
       "player_id": "10219"
     },
     {
-      "count": 113694,
+      "count": 115476,
       "player_id": "10213"
     },
     {
-      "count": 110934,
+      "count": 112815,
       "player_id": "8180"
     },
     {
-      "count": 109952,
+      "count": 112056,
       "player_id": "10235"
     },
     {
-      "count": 103344,
-      "player_id": "7567"
-    },
-    {
-      "count": 102213,
+      "count": 105435,
       "player_id": "9482"
     },
     {
-      "count": 99081,
+      "count": 104778,
       "player_id": "DET"
     },
     {
-      "count": 98082,
+      "count": 104432,
+      "player_id": "7567"
+    },
+    {
+      "count": 99261,
       "player_id": "9511"
     },
     {
-      "count": 93771,
+      "count": 94806,
       "player_id": "13298"
     },
     {
-      "count": 91260,
-      "player_id": "10222"
-    },
-    {
-      "count": 89004,
+      "count": 93354,
       "player_id": "LV"
     },
     {
-      "count": 84980,
+      "count": 91710,
+      "player_id": "10222"
+    },
+    {
+      "count": 86492,
       "player_id": "13311"
     },
     {
-      "count": 83456,
-      "player_id": "8121"
-    },
-    {
-      "count": 83016,
+      "count": 84798,
       "player_id": "8800"
     },
     {
-      "count": 82456,
+      "count": 84056,
+      "player_id": "8121"
+    },
+    {
+      "count": 83848,
       "player_id": "11610"
     },
     {
-      "count": 79884,
+      "count": 80636,
       "player_id": "13294"
     },
     {
-      "count": 73100,
+      "count": 73110,
       "player_id": "8110"
     },
     {
-      "count": 70301,
+      "count": 70840,
       "player_id": "9754"
     },
     {
-      "count": 66990,
+      "count": 67977,
       "player_id": "9225"
     },
     {
-      "count": 66654,
+      "count": 67165,
       "player_id": "7553"
     },
     {
-      "count": 65560,
+      "count": 66920,
       "player_id": "12469"
     },
     {
-      "count": 62922,
+      "count": 65772,
       "player_id": "13413"
     },
     {
-      "count": 59214,
-      "player_id": "12530"
-    },
-    {
-      "count": 59154,
+      "count": 61278,
       "player_id": "11563"
     },
     {
-      "count": 58020,
-      "player_id": "11603"
+      "count": 60318,
+      "player_id": "12530"
     },
     {
-      "count": 57951,
-      "player_id": "421"
-    },
-    {
-      "count": 57496,
+      "count": 59024,
       "player_id": "12487"
     },
     {
-      "count": 56805,
-      "player_id": "2078"
+      "count": 58890,
+      "player_id": "11603"
     },
     {
-      "count": 55944,
+      "count": 58545,
+      "player_id": "421"
+    },
+    {
+      "count": 57474,
       "player_id": "11624"
     },
     {
-      "count": 52850,
+      "count": 57449,
+      "player_id": "2078"
+    },
+    {
+      "count": 53450,
       "player_id": "13285"
     },
     {
-      "count": 51552,
+      "count": 53262,
       "player_id": "5045"
     },
     {
-      "count": 51002,
-      "player_id": "7049"
-    },
-    {
-      "count": 50296,
+      "count": 52304,
       "player_id": "8205"
     },
     {
-      "count": 49608,
+      "count": 51289,
+      "player_id": "7049"
+    },
+    {
+      "count": 50920,
       "player_id": "4035"
     },
     {
-      "count": 49486,
+      "count": 50000,
       "player_id": "13293"
     },
     {
-      "count": 48249,
+      "count": 49275,
       "player_id": "6783"
     },
     {
-      "count": 47826,
+      "count": 48672,
       "player_id": "2505"
     },
     {
-      "count": 46560,
+      "count": 46950,
       "player_id": "9500"
     },
     {
-      "count": 45740,
+      "count": 46715,
       "player_id": "12493"
     },
     {
-      "count": 45090,
+      "count": 45815,
       "player_id": "7528"
     },
     {
-      "count": 44435,
+      "count": 45075,
       "player_id": "11237"
     },
     {
-      "count": 40221,
+      "count": 40743,
       "player_id": "5012"
     },
     {
-      "count": 37290,
-      "player_id": "11655"
-    },
-    {
-      "count": 36425,
+      "count": 38510,
       "player_id": "MIN"
     },
     {
-      "count": 36066,
+      "count": 37812,
+      "player_id": "11655"
+    },
+    {
+      "count": 36360,
       "player_id": "8136"
     },
     {
-      "count": 35730,
+      "count": 36000,
       "player_id": "12506"
     }
   ]
