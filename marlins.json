@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15T04:12:59.111Z",
+  "updated_at": "2026-09-15T04:42:59.127Z",
   "league": {
     "name": "Lombardi’s Lads Fantasy Championship LLFC",
     "status": "in_season",
@@ -26,6 +26,7 @@
       "playoff_type": 0,
       "taxi_slots": 0,
       "sub_start_time_eligibility": 0,
+      "last_scored_leg": 1,
       "daily_waivers_days": 5461,
       "sub_lock_if_starter_active": 0,
       "playoff_week_start": 15,
@@ -61,6 +62,7 @@
     },
     "avatar": "99c253f6032deaf2721ccb413a9016b7",
     "company_id": null,
+    "last_message_id": "1404942193109508096",
     "sport": "nfl",
     "season_type": "regular",
     "season": "2026",
@@ -215,7 +217,6 @@
       "st_ff": 1,
       "idp_tkl_ast": 0
     },
-    "last_message_id": "1404942193109508096",
     "last_author_avatar": null,
     "last_author_display_name": "sys",
     "last_author_id": "166666666666666666",
@@ -228,11 +229,6 @@
     "last_read_id": null,
     "league_id": "1384488276626272256",
     "previous_league_id": "1258299728655814656",
-    "bracket_id": null,
-    "bracket_overrides_id": null,
-    "group_id": null,
-    "loser_bracket_id": null,
-    "loser_bracket_overrides_id": null,
     "roster_positions": [
       "QB",
       "RB",
@@ -249,6 +245,11 @@
       "BN",
       "BN"
     ],
+    "group_id": null,
+    "bracket_id": null,
+    "bracket_overrides_id": null,
+    "loser_bracket_id": null,
+    "loser_bracket_overrides_id": null,
     "total_rosters": 10
   },
   "users": [
@@ -415,7 +416,9 @@
       "keepers": null,
       "league_id": "1384488276626272256",
       "metadata": {
-        "p_nick_12481": "One leg is enough"
+        "p_nick_12481": "One leg is enough",
+        "record": "W",
+        "streak": "1W"
       },
       "owner_id": "700312807773663232",
       "player_map": null,
@@ -441,14 +444,18 @@
       ],
       "roster_id": 1,
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 137,
+        "fpts_against": 85,
+        "fpts_against_decimal": 52,
+        "fpts_decimal": 76,
         "losses": 0,
+        "ppts": 147,
+        "ppts_decimal": 6,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 3,
-        "wins": 0
+        "wins": 1
       },
       "starters": [
         "6797",
@@ -472,7 +479,9 @@
         "allow_pn_inactive_starters": "on",
         "allow_pn_player_injury_status": "on",
         "allow_pn_scoring": "off",
-        "restrict_pn_scoring_starters_only": "off"
+        "record": "L",
+        "restrict_pn_scoring_starters_only": "off",
+        "streak": "1L"
       },
       "owner_id": "1258369691303288832",
       "player_map": null,
@@ -495,9 +504,13 @@
       "reserve": null,
       "roster_id": 2,
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 137,
+        "fpts_against": 152,
+        "fpts_against_decimal": 32,
+        "fpts_decimal": 86,
+        "losses": 1,
+        "ppts": 138,
+        "ppts_decimal": 6,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
@@ -522,7 +535,10 @@
       "co_owners": null,
       "keepers": null,
       "league_id": "1384488276626272256",
-      "metadata": null,
+      "metadata": {
+        "record": "W",
+        "streak": "1W"
+      },
       "owner_id": "1258546735060365312",
       "player_map": null,
       "players": [
@@ -544,14 +560,18 @@
       "reserve": null,
       "roster_id": 3,
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 152,
+        "fpts_against": 137,
+        "fpts_against_decimal": 86,
+        "fpts_decimal": 32,
         "losses": 0,
+        "ppts": 157,
+        "ppts_decimal": 42,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 7,
-        "wins": 0
+        "wins": 1
       },
       "starters": [
         "6904",
@@ -571,7 +591,10 @@
       "co_owners": null,
       "keepers": null,
       "league_id": "1384488276626272256",
-      "metadata": null,
+      "metadata": {
+        "record": "L",
+        "streak": "1L"
+      },
       "owner_id": "1384504583543357440",
       "player_map": null,
       "players": [
@@ -593,9 +616,13 @@
       "reserve": null,
       "roster_id": 4,
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 164,
+        "fpts_against": 171,
+        "fpts_against_decimal": 66,
+        "fpts_decimal": 10,
+        "losses": 1,
+        "ppts": 189,
+        "ppts_decimal": 60,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 1,
@@ -620,7 +647,10 @@
       "co_owners": null,
       "keepers": null,
       "league_id": "1384488276626272256",
-      "metadata": null,
+      "metadata": {
+        "record": "L",
+        "streak": "1L"
+      },
       "owner_id": "1258602718340059136",
       "player_map": null,
       "players": [
@@ -645,9 +675,13 @@
       ],
       "roster_id": 5,
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 113,
+        "fpts_against": 158,
+        "fpts_against_decimal": 66,
+        "fpts_decimal": 74,
+        "losses": 1,
+        "ppts": 113,
+        "ppts_decimal": 74,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 2,
@@ -672,7 +706,10 @@
       "co_owners": null,
       "keepers": null,
       "league_id": "1384488276626272256",
-      "metadata": null,
+      "metadata": {
+        "record": "W",
+        "streak": "1W"
+      },
       "owner_id": "571938385578205184",
       "player_map": null,
       "players": [
@@ -694,14 +731,18 @@
       "reserve": null,
       "roster_id": 6,
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 143,
+        "fpts_against": 127,
+        "fpts_against_decimal": 76,
+        "fpts_decimal": 40,
         "losses": 0,
+        "ppts": 172,
+        "ppts_decimal": 56,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 6,
-        "wins": 0
+        "wins": 1
       },
       "starters": [
         "3294",
@@ -721,7 +762,10 @@
       "co_owners": null,
       "keepers": null,
       "league_id": "1384488276626272256",
-      "metadata": null,
+      "metadata": {
+        "record": "W",
+        "streak": "1W"
+      },
       "owner_id": "1258664351137533952",
       "player_map": null,
       "players": [
@@ -743,14 +787,18 @@
       "reserve": null,
       "roster_id": 7,
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 171,
+        "fpts_against": 164,
+        "fpts_against_decimal": 10,
+        "fpts_decimal": 66,
         "losses": 0,
+        "ppts": 183,
+        "ppts_decimal": 76,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 4,
-        "wins": 0
+        "wins": 1
       },
       "starters": [
         "11560",
@@ -770,7 +818,10 @@
       "co_owners": null,
       "keepers": null,
       "league_id": "1384488276626272256",
-      "metadata": null,
+      "metadata": {
+        "record": "W",
+        "streak": "1W"
+      },
       "owner_id": "1258720565452087296",
       "player_map": null,
       "players": [
@@ -792,14 +843,18 @@
       "reserve": null,
       "roster_id": 8,
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
+        "fpts": 158,
+        "fpts_against": 113,
+        "fpts_against_decimal": 74,
+        "fpts_decimal": 66,
         "losses": 0,
+        "ppts": 169,
+        "ppts_decimal": 30,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
         "waiver_position": 2,
-        "wins": 0
+        "wins": 1
       },
       "starters": [
         "4881",
@@ -819,7 +874,10 @@
       "co_owners": null,
       "keepers": null,
       "league_id": "1384488276626272256",
-      "metadata": null,
+      "metadata": {
+        "record": "L",
+        "streak": "1L"
+      },
       "owner_id": "1258745033431977984",
       "player_map": null,
       "players": [
@@ -841,9 +899,13 @@
       "reserve": null,
       "roster_id": 9,
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 85,
+        "fpts_against": 137,
+        "fpts_against_decimal": 76,
+        "fpts_decimal": 52,
+        "losses": 1,
+        "ppts": 93,
+        "ppts_decimal": 52,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 1,
@@ -868,7 +930,10 @@
       "co_owners": null,
       "keepers": null,
       "league_id": "1384488276626272256",
-      "metadata": null,
+      "metadata": {
+        "record": "L",
+        "streak": "1L"
+      },
       "owner_id": "1259113863190683648",
       "player_map": null,
       "players": [
@@ -890,9 +955,13 @@
       "reserve": null,
       "roster_id": 10,
       "settings": {
-        "fpts": 0,
-        "fpts_decimal": 0,
-        "losses": 0,
+        "fpts": 127,
+        "fpts_against": 143,
+        "fpts_against_decimal": 40,
+        "fpts_decimal": 76,
+        "losses": 1,
+        "ppts": 128,
+        "ppts_decimal": 56,
         "ties": 0,
         "total_moves": 0,
         "waiver_budget_used": 0,
@@ -2488,405 +2557,405 @@
   ],
   "trending_adds_24h": [
     {
-      "count": 956018,
+      "count": 959252,
       "player_id": "11834"
     },
     {
-      "count": 494400,
+      "count": 509032,
       "player_id": "13296"
     },
     {
-      "count": 473094,
+      "count": 475029,
       "player_id": "6130"
     },
     {
-      "count": 280399,
+      "count": 285593,
       "player_id": "13414"
     },
     {
-      "count": 274584,
+      "count": 273360,
       "player_id": "3161"
     },
     {
-      "count": 215884,
-      "player_id": "4993"
-    },
-    {
-      "count": 205195,
+      "count": 211355,
       "player_id": "TB"
     },
     {
-      "count": 170896,
+      "count": 209076,
+      "player_id": "4993"
+    },
+    {
+      "count": 167136,
       "player_id": "9228"
     },
     {
-      "count": 162936,
+      "count": 163320,
       "player_id": "12492"
     },
     {
-      "count": 158526,
+      "count": 159588,
       "player_id": "SF"
     },
     {
-      "count": 128432,
+      "count": 126176,
       "player_id": "12545"
     },
     {
-      "count": 115179,
+      "count": 115083,
       "player_id": "9486"
     },
     {
-      "count": 88488,
+      "count": 90540,
       "player_id": "13337"
     },
     {
-      "count": 73143,
+      "count": 74115,
       "player_id": "4454"
     },
     {
-      "count": 67993,
-      "player_id": "11646"
-    },
-    {
-      "count": 64624,
+      "count": 67624,
       "player_id": "4066"
     },
     {
-      "count": 63938,
+      "count": 66742,
+      "player_id": "11646"
+    },
+    {
+      "count": 63354,
       "player_id": "3634"
     },
     {
-      "count": 58692,
+      "count": 56730,
       "player_id": "12534"
     },
     {
-      "count": 55611,
+      "count": 55800,
       "player_id": "13330"
     },
     {
-      "count": 50491,
+      "count": 51016,
       "player_id": "12501"
     },
     {
-      "count": 47646,
-      "player_id": "3286"
-    },
-    {
-      "count": 46998,
-      "player_id": "9482"
-    },
-    {
-      "count": 43696,
+      "count": 48696,
       "player_id": "12472"
     },
     {
-      "count": 31566,
+      "count": 48384,
+      "player_id": "3286"
+    },
+    {
+      "count": 44541,
+      "player_id": "9482"
+    },
+    {
+      "count": 31092,
       "player_id": "12711"
     },
     {
-      "count": 29223,
+      "count": 30618,
       "player_id": "12533"
     },
     {
-      "count": 27405,
-      "player_id": "6826"
-    },
-    {
-      "count": 25170,
+      "count": 27750,
       "player_id": "4177"
     },
     {
-      "count": 24500,
+      "count": 26721,
+      "player_id": "6826"
+    },
+    {
+      "count": 24206,
       "player_id": "10236"
     },
     {
-      "count": 22064,
+      "count": 22328,
       "player_id": "8121"
     },
     {
-      "count": 21896,
+      "count": 21740,
       "player_id": "8183"
     },
     {
-      "count": 19508,
-      "player_id": "13301"
-    },
-    {
-      "count": 19271,
+      "count": 19950,
       "player_id": "2020"
     },
     {
-      "count": 18854,
-      "player_id": "5022"
+      "count": 19655,
+      "player_id": "13301"
     },
     {
-      "count": 18352,
+      "count": 18876,
       "player_id": "9757"
     },
     {
-      "count": 17984,
+      "count": 18498,
+      "player_id": "5022"
+    },
+    {
+      "count": 17512,
       "player_id": "1166"
     },
     {
-      "count": 16670,
-      "player_id": "7002"
-    },
-    {
-      "count": 16288,
-      "player_id": "11625"
-    },
-    {
-      "count": 16254,
+      "count": 16884,
       "player_id": "9758"
     },
     {
-      "count": 15716,
+      "count": 16672,
+      "player_id": "11625"
+    },
+    {
+      "count": 16204,
+      "player_id": "7002"
+    },
+    {
+      "count": 16192,
       "player_id": "13379"
     },
     {
-      "count": 15570,
+      "count": 15120,
       "player_id": "9480"
     },
     {
-      "count": 13518,
-      "player_id": "9487"
-    },
-    {
-      "count": 13312,
-      "player_id": "13545"
-    },
-    {
-      "count": 13257,
-      "player_id": "11624"
-    },
-    {
-      "count": 13209,
+      "count": 13328,
       "player_id": "12556"
     },
     {
-      "count": 13032,
+      "count": 13180,
+      "player_id": "13545"
+    },
+    {
+      "count": 13122,
       "player_id": "8134"
     },
     {
-      "count": 12438,
+      "count": 13068,
+      "player_id": "9487"
+    },
+    {
+      "count": 12519,
+      "player_id": "11624"
+    },
+    {
+      "count": 11835,
       "player_id": "11560"
     },
     {
-      "count": 10211,
-      "player_id": "7571"
-    },
-    {
-      "count": 10200,
-      "player_id": "LV"
-    },
-    {
-      "count": 10033,
+      "count": 10901,
       "player_id": "5854"
     },
     {
-      "count": 9910,
-      "player_id": "13285"
+      "count": 10702,
+      "player_id": "7571"
+    },
+    {
+      "count": 10242,
+      "player_id": "11630"
+    },
+    {
+      "count": 9828,
+      "player_id": "LV"
     }
   ],
   "trending_drops_24h": [
     {
-      "count": 217024,
+      "count": 214424,
       "player_id": "5849"
     },
     {
-      "count": 157932,
+      "count": 154422,
       "player_id": "11581"
     },
     {
-      "count": 122418,
-      "player_id": "9756"
-    },
-    {
-      "count": 119946,
+      "count": 123666,
       "player_id": "JAX"
     },
     {
-      "count": 107829,
+      "count": 119601,
+      "player_id": "9756"
+    },
+    {
+      "count": 106812,
       "player_id": "10219"
     },
     {
-      "count": 97236,
+      "count": 98112,
       "player_id": "10213"
     },
     {
-      "count": 91248,
-      "player_id": "10235"
-    },
-    {
-      "count": 90837,
+      "count": 92421,
       "player_id": "8180"
     },
     {
-      "count": 89232,
+      "count": 91792,
+      "player_id": "10235"
+    },
+    {
+      "count": 89312,
       "player_id": "7567"
     },
     {
-      "count": 86121,
-      "player_id": "10222"
-    },
-    {
-      "count": 85644,
+      "count": 85977,
       "player_id": "9511"
     },
     {
-      "count": 80388,
+      "count": 84591,
+      "player_id": "10222"
+    },
+    {
+      "count": 80469,
       "player_id": "13298"
     },
     {
-      "count": 76832,
-      "player_id": "8121"
-    },
-    {
-      "count": 74826,
+      "count": 76878,
       "player_id": "9482"
     },
     {
-      "count": 73101,
+      "count": 75632,
+      "player_id": "8121"
+    },
+    {
+      "count": 73556,
       "player_id": "13311"
     },
     {
-      "count": 72165,
-      "player_id": "8110"
-    },
-    {
-      "count": 71812,
+      "count": 71112,
       "player_id": "13294"
     },
     {
-      "count": 70328,
+      "count": 70528,
       "player_id": "11610"
     },
     {
-      "count": 69606,
+      "count": 69894,
       "player_id": "8800"
     },
     {
-      "count": 63553,
-      "player_id": "9754"
+      "count": 69415,
+      "player_id": "8110"
     },
     {
-      "count": 62629,
-      "player_id": "7553"
-    },
-    {
-      "count": 59832,
-      "player_id": "LV"
-    },
-    {
-      "count": 58770,
+      "count": 62631,
       "player_id": "DET"
     },
     {
-      "count": 56847,
+      "count": 62447,
+      "player_id": "9754"
+    },
+    {
+      "count": 61686,
+      "player_id": "LV"
+    },
+    {
+      "count": 60921,
+      "player_id": "7553"
+    },
+    {
+      "count": 57211,
       "player_id": "9225"
     },
     {
-      "count": 53740,
+      "count": 53905,
       "player_id": "12469"
     },
     {
-      "count": 51289,
-      "player_id": "2078"
-    },
-    {
-      "count": 50751,
+      "count": 50733,
       "player_id": "421"
     },
     {
-      "count": 50460,
+      "count": 50106,
+      "player_id": "2078"
+    },
+    {
+      "count": 49890,
       "player_id": "11603"
     },
     {
-      "count": 49446,
+      "count": 49590,
       "player_id": "12530"
     },
     {
-      "count": 48055,
-      "player_id": "7049"
-    },
-    {
-      "count": 47770,
-      "player_id": "13285"
-    },
-    {
-      "count": 47216,
+      "count": 47512,
       "player_id": "12487"
     },
     {
-      "count": 45514,
+      "count": 46949,
+      "player_id": "7049"
+    },
+    {
+      "count": 46340,
+      "player_id": "13285"
+    },
+    {
+      "count": 44840,
       "player_id": "13293"
     },
     {
-      "count": 42544,
+      "count": 42528,
       "player_id": "4035"
     },
     {
-      "count": 41310,
-      "player_id": "6783"
-    },
-    {
-      "count": 40820,
-      "player_id": "9500"
-    },
-    {
-      "count": 40338,
-      "player_id": "2505"
-    },
-    {
-      "count": 40050,
+      "count": 42399,
       "player_id": "11624"
     },
     {
-      "count": 39550,
-      "player_id": "7528"
-    },
-    {
-      "count": 38238,
+      "count": 42366,
       "player_id": "13413"
     },
     {
-      "count": 37330,
-      "player_id": "12493"
+      "count": 41526,
+      "player_id": "6783"
     },
     {
-      "count": 36870,
-      "player_id": "11237"
+      "count": 41065,
+      "player_id": "9500"
     },
     {
-      "count": 36080,
-      "player_id": "8205"
+      "count": 40527,
+      "player_id": "2505"
     },
     {
-      "count": 35814,
+      "count": 40290,
       "player_id": "11563"
     },
     {
-      "count": 35577,
-      "player_id": "5012"
+      "count": 39240,
+      "player_id": "7528"
     },
     {
-      "count": 33355,
-      "player_id": "12506"
+      "count": 38408,
+      "player_id": "8205"
     },
     {
-      "count": 32400,
+      "count": 37595,
+      "player_id": "12493"
+    },
+    {
+      "count": 37315,
+      "player_id": "11237"
+    },
+    {
+      "count": 36018,
       "player_id": "5045"
     },
     {
-      "count": 32012,
+      "count": 34821,
+      "player_id": "5012"
+    },
+    {
+      "count": 32345,
+      "player_id": "12506"
+    },
+    {
+      "count": 31836,
       "player_id": "11655"
     },
     {
-      "count": 31662,
+      "count": 31644,
       "player_id": "8136"
     },
     {
-      "count": 31098,
+      "count": 30867,
       "player_id": "4943"
     }
   ]
